@@ -81,6 +81,7 @@ while True:
     elif number== 4:
         uname = platform.uname()
         print(f"User Account: {uname.node}")
+        input("Press Enter to continue...")
         print("="*80)
         
     elif number>4 or number<0:
